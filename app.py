@@ -79,4 +79,4 @@ app.layout = html.Div(
 #     return html.P("This shouldn't ever be displayed...")    
      
 if __name__ == '__main__': 
-    app.run_server(debug=True)
+    app.run_server()
