@@ -1,0 +1,5 @@
+./data
+./chromedriver.exe
+./data_collection.ipynb
+./data_preparation.ipynb
+./note.txt
