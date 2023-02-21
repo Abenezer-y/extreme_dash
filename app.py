@@ -7,6 +7,9 @@ import dash_bootstrap_components as dbc
 
 # Create the Dash app object
 app = Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
+
+server = app.server
+
 x = [1,2,3,4,5]
 y_sales = [0, 0, 0, 0, 0, 0, 0, 0]
 range = ['1/2 - 1/8', '1/9 - 1/15', '1/16 - 1/22', '1/23 - 1/29', '1/30 - 2/5', '2/6 - 2/12', '2/13 - 2/19', '2/20 - 2/26', ]
