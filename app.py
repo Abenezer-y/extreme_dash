@@ -46,8 +46,8 @@ tab1_content = dbc.Card(
 tab2_content = dbc.Card(
     dbc.CardBody(
         [
-            html.P("This is tab 2!", className="card-text"),
-            dbc.Button("Don't click here", color="danger"),
+            html.P("Events Performance", className="card-text"),
+            dbc.Button("To be Updated", color="danger"),
         ]
     ), className="mt-3", )
 
