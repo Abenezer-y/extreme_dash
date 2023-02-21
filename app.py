@@ -34,10 +34,10 @@ tab1_content = dbc.Card(
         [ 
             dbc.Row(
             [
-                dbc.Col(dbc.Toast( [html.Div("Total Number of Leads: 600", className="mb-0"), html.Div("Closed Deals: 0", className="mb-0"), html.Div("Conversion Rate: 0 %", className="mb-0")], header="Conversion rate", style={'margin':'5px','height':'120px'}),width=6, lg=3),
-                dbc.Col(dbc.Toast( [html.Div("Target: 1,200,000 USD", className="mb-0"), html.Div("Actual: 0 USD", className="mb-0")], header="Total current sponsor revenue vs target", style={'margin':'5px','height':'120px'}), width=6, lg=3),
-                dbc.Col(dbc.Toast( [html.Div("Expected Deals to be Closed: 0", className="mb-0")], header="Expected Closed Deals in the next 4 weeks", style={'margin':'5px','height':'120px'}), width=6, lg=3),
-                dbc.Col(dbc.Toast( [html.Div("Proposals: 0", className="mb-0")], style={'margin':'5px','height':'120px',}, header="Number of Proposals under Consideration"), width=6, lg=3),
+                dbc.Col(dbc.Toast( [html.Div("Total Number of Leads: 600", className="mb-0"), html.Div("Closed Deals: 0", className="mb-0"), html.Div("Conversion Rate: 0 %", className="mb-0")], header="Conversion rate", style={'margin':'5px','min-height':'120px'}),width=6, lg=3),
+                dbc.Col(dbc.Toast( [html.Div("Target: 1,200,000 USD", className="mb-0"), html.Div("Actual: 0 USD", className="mb-0")], header="Total current sponsor revenue vs target", style={'margin':'5px','min-height':'120px'}), width=6, lg=3),
+                dbc.Col(dbc.Toast( [html.Div("Expected Deals to be Closed: 0", className="mb-0")], header="Expected Closed Deals in the next 4 weeks", style={'margin':'5px','min-height':'120px'}), width=6, lg=3),
+                dbc.Col(dbc.Toast( [html.Div("Proposals: 0", className="mb-0")], style={'margin':'5px','min-height':'120px',}, header="Number of Proposals under Consideration"), width=6, lg=3),
             ]
         ),
         dbc.Row(dbc.Col( dcc.Graph( id='line_01', figure=line_01 ))),
